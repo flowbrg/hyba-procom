@@ -1,4 +1,4 @@
 slprj/
 *.slxc
 *.asv
-./src/moteur/README.md
+src/moteur/README.md
