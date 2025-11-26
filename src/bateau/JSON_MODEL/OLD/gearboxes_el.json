@@ -1,0 +1,32 @@
+{
+	"PTI_6_608": {
+		"eff":0.96,
+		"R": 6.608,
+		"max_perf": 0.332,
+		"max_input_speed": 2300.0
+	},
+	"PTI_7_597": {
+		"eff":0.96,
+		"R": 7.597,
+		"max_perf": 0.289,
+		"max_input_speed": 2300.0
+	},
+	"PTI_9_219": {
+		"eff":0.96,
+		"R": 9.219,
+		"max_perf": 0.238,
+		"max_input_speed": 2300.0
+	},
+	"PTI_10_725": {
+		"eff":0.96,
+		"R": 10.725,
+		"max_perf": 0.204,
+		"max_input_speed": 2300.0
+	},
+	"PTI_13_128": {
+		"eff":0.96,
+		"R": 13.128,
+		"max_perf": 0.167,
+		"max_input_speed": 2300.0
+	}
+}

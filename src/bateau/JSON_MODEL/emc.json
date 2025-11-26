@@ -1,0 +1,42 @@
+{
+	"Fixed_rpm_760_OL": {
+		"mode":0,
+		"dnm":79.59
+	},
+	"Fixed_rpm_1200_OL": {
+		"mode":0,
+		"dnm":125.7
+	},
+	"Fixed_rpm_1500_OL": {
+		"mode":0,
+		"dnm":157.08
+	},
+	"Fixed_rpm_760_CL": {
+		"mode":1,
+		"dnm":79.59
+	},
+	"Fixed_rpm_1200_CL": {
+		"mode":1,
+		"dnm":125.7
+	},
+	"Fixed_rpm_1500_CL": {
+		"mode":1,
+		"dnm":157.08
+	},
+	"Diesel_variable_rpm": {
+		"mode":2,
+		"dnm":0.0
+	},
+	"Hybrid_rpm_760": {
+		"mode":3,
+		"dnm":79.59
+	},
+	"Hybrid_rpm_1200": {
+		"mode":3,
+		"dnm":125.66
+	},
+	"Hybrid_rpm_1500": {
+		"mode":3,
+		"dnm":157.08
+	}
+}

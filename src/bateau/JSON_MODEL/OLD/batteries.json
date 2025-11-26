@@ -1,0 +1,20 @@
+{
+	"Cube_3_modules": {
+		"energy":37.5,
+		"min_voltage":180.0,
+		"nom_voltage":230.0,
+		"max_voltage":263.0
+	},
+	"Cube_6_modules": {
+		"energy":75.0,
+		"min_voltage":360.0,
+		"nom_voltage":461.0,
+		"max_voltage":526.0
+	},
+	"Cube_9_modules": {
+		"energy":112.5,
+		"min_voltage":540.0,
+		"nom_voltage":691.0,
+		"max_voltage":788.0
+	}
+}

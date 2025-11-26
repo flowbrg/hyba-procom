@@ -1,0 +1,560 @@
+{
+	"ESD_800": {
+		"eff":0.96,
+		"R": 2.953,
+		"max_perf": 0.950,
+		"max_input_speed": 1400.0
+	},
+	"MM_W1950_4_103": {
+		"eff":0.96,
+		"R": 4.103,
+		"max_perf": 0.210,
+		"max_input_speed": 2800.0
+	},
+	"MM_W1950_4_481": {
+		"eff":0.96,
+		"R": 4.481,
+		"max_perf": 0.210,
+		"max_input_speed": 2800.0
+	},
+	"MM_W1950_4_920": {
+		"eff":0.96,
+		"R": 4.920,
+		"max_perf": 0.210,
+		"max_input_speed": 2800.0
+	},
+	"MM_W1950_5_727": {
+		"eff":0.96,
+		"R": 5.727,
+		"max_perf": 0.210,
+		"max_input_speed": 2800.0
+	},
+	"MM_W1950_6_400": {
+		"eff":0.96,
+		"R": 6.400,
+		"max_perf": 0.193,
+		"max_input_speed": 2800.0
+	},
+	"MM_W1950_7_222": {
+		"eff":0.96,
+		"R": 7.222,
+		"max_perf": 0.172,
+		"max_input_speed": 2800.0
+	},
+	"MM_W1950_7_706": {
+		"eff":0.96,
+		"R": 7.706,
+		"max_perf": 0.157,
+		"max_input_speed": 2800.0
+	},
+	"MM_W3100_4_034": {
+		"eff":0.96,
+		"R": 4.034,
+		"max_perf": 0.316,
+		"max_input_speed": 2300.0
+	},
+	"MM_W3100_4_444": {
+		"eff":0.96,
+		"R": 4.444,
+		"max_perf": 0.316,
+		"max_input_speed": 2300.0
+	},
+	"MM_W3100_5_074": {
+		"eff":0.96,
+		"R": 5.074,
+		"max_perf": 0.316,
+		"max_input_speed": 2300.0
+	},
+	"MM_W3100_5_560": {
+		"eff":0.96,
+		"R": 5.560,
+		"max_perf": 0.316,
+		"max_input_speed": 2300.0
+	},
+	"MM_W3100_6_000": {
+		"eff":0.96,
+		"R": 6.000,
+		"max_perf": 0.316,
+		"max_input_speed": 2300.0
+	},
+	"MM_W3300_6_444": {
+		"eff":0.96,
+		"R": 6.444,
+		"max_perf": 0.296,
+		"max_input_speed": 2200.0
+	},
+	"MM_W3300_6_556": {
+		"eff":0.96,
+		"R": 6.556,
+		"max_perf": 0.280,
+		"max_input_speed": 2200.0
+	},
+	"MM_W3300_6_941": {
+		"eff":0.96,
+		"R": 6.941,
+		"max_perf": 0.259,
+		"max_input_speed": 2200.0
+	},
+	"MM_W3350_6_444": {
+		"eff":0.96,
+		"R": 6.444,
+		"max_perf": 0.350,
+		"max_input_speed": 2200.0
+	},
+	"MM_W3350_6_842": {
+		"eff":0.96,
+		"R": 6.842,
+		"max_perf": 0.291,
+		"max_input_speed": 2200.0
+	},
+	"MM_W3450_4_077": {
+		"eff":0.96,
+		"R": 4.077,
+		"max_perf": 0.361,
+		"max_input_speed": 2200.0
+	},
+	"MM_W3450_4_583": {
+		"eff":0.96,
+		"R": 4.583,
+		"max_perf": 0.361,
+		"max_input_speed": 2200.0
+	},
+	"MM_W3450_4_913": {
+		"eff":0.96,
+		"R": 4.913,
+		"max_perf": 0.361,
+		"max_input_speed": 2200.0
+	},
+	"MM_W3450_5_476": {
+		"eff":0.96,
+		"R": 5.476,
+		"max_perf": 0.361,
+		"max_input_speed": 2200.0
+	},
+	"MM_W3450_5_850": {
+		"eff":0.96,
+		"R": 5.850,
+		"max_perf": 0.361,
+		"max_input_speed": 2200.0
+	},
+	"MM_W3700_4_077": {
+		"eff":0.96,
+		"R": 4.077,
+		"max_perf": 0.388,
+		"max_input_speed": 2200.0
+	},
+	"MM_W3700_4_583": {
+		"eff":0.96,
+		"R": 4.583,
+		"max_perf": 0.388,
+		"max_input_speed": 2200.0
+	},
+	"MM_W3700_4_913": {
+		"eff":0.96,
+		"R": 4.913,
+		"max_perf": 0.388,
+		"max_input_speed": 2200.0
+	},
+	"MM_W3700_5_476": {
+		"eff":0.96,
+		"R": 5.476,
+		"max_perf": 0.388,
+		"max_input_speed": 2200.0
+	},
+	"MM_W3700_5_850": {
+		"eff":0.96,
+		"R": 5.850,
+		"max_perf": 0.388,
+		"max_input_speed": 2200.0
+	},
+	"MM_W3850_6_955": {
+		"eff":0.96,
+		"R": 6.955,
+		"max_perf": 0.348,
+		"max_input_speed": 2100.0
+	},
+	"MM_W3900_6_091": {
+		"eff":0.96,
+		"R": 6.091,
+		"max_perf": 0.408,
+		"max_input_speed": 2100.0
+	},
+	"MM_W3900_6_435": {
+		"eff":0.96,
+		"R": 6.435,
+		"max_perf": 0.408,
+		"max_input_speed": 2100.0
+	},
+	"MM_W3900_6_818": {
+		"eff":0.96,
+		"R": 6.818,
+		"max_perf": 0.408,
+		"max_input_speed": 2100.0
+	},
+	"MM_W4400_3_026": {
+		"eff":0.96,
+		"R": 3.026,
+		"max_perf": 0.540,
+		"max_input_speed": 2100.0
+	},
+	"MM_W4400_3_486": {
+		"eff":0.96,
+		"R": 3.486,
+		"max_perf": 0.540,
+		"max_input_speed": 2100.0
+	},
+	"MM_W4400_4_032": {
+		"eff":0.96,
+		"R": 4.032,
+		"max_perf": 0.540,
+		"max_input_speed": 2100.0
+	},
+	"MM_W4400_4_448": {
+		"eff":0.96,
+		"R": 4.448,
+		"max_perf": 0.540,
+		"max_input_speed": 2100.0
+	},
+	"MM_W4400_5_077": {
+		"eff":0.96,
+		"R": 5.077,
+		"max_perf": 0.540,
+		"max_input_speed": 2100.0
+	},
+	"MM_W4400_5_542": {
+		"eff":0.96,
+		"R": 5.542,
+		"max_perf": 0.540,
+		"max_input_speed": 2100.0
+	},
+	"MM_W4400_5_913": {
+		"eff":0.96,
+		"R": 5.913,
+		"max_perf": 0.540,
+		"max_input_speed": 2100.0
+	},
+	"MM_W4000_3_077": {
+		"eff":0.96,
+		"R": 3.077,
+		"max_perf": 0.510,
+		"max_input_speed": 1800.0
+	},
+	"MM_W4000_3_474": {
+		"eff":0.96,
+		"R": 3.474,
+		"max_perf": 0.451,
+		"max_input_speed": 2000.0
+	},
+	"MM_W4000_3_923": {
+		"eff":0.96,
+		"R": 3.923,
+		"max_perf": 0.399,
+		"max_input_speed": 2300.0
+	},
+	"MM_W4000_4_258": {
+		"eff":0.96,
+		"R": 4.258,
+		"max_perf": 0.368,
+		"max_input_speed": 2600.0
+	},
+	"MM_W4000_4_625": {
+		"eff":0.96,
+		"R": 4.625,
+		"max_perf": 0.339,
+		"max_input_speed": 2800.0
+	},
+	"MM_W4000_5_248": {
+		"eff":0.96,
+		"R": 5.248,
+		"max_perf": 0.298,
+		"max_input_speed": 2800.0
+	},
+	"MM_W4000_5_978": {
+		"eff":0.96,
+		"R": 5.978,
+		"max_perf": 0.262,
+		"max_input_speed": 2800.0
+	},
+	"MM_W5200_3_964": {
+		"eff":0.96,
+		"R": 3.964,
+		"max_perf": 0.611,
+		"max_input_speed": 2100.0
+	},
+	"MM_W5200_4_345": {
+		"eff":0.96,
+		"R": 4.345,
+		"max_perf": 0.611,
+		"max_input_speed": 2100.0
+	},
+	"MM_W5200_4_962": {
+		"eff":0.96,
+		"R": 4.962,
+		"max_perf": 0.611,
+		"max_input_speed": 2100.0
+	},
+	"MM_W5200_5_458": {
+		"eff":0.96,
+		"R": 5.458,
+		"max_perf": 0.611,
+		"max_input_speed": 2100.0
+	},
+	"MM_W5200_5_955": {
+		"eff":0.96,
+		"R": 5.955,
+		"max_perf": 0.611,
+		"max_input_speed": 2100.0
+	},
+	"MM_W5700_1_976": {
+		"eff":0.96,
+		"R": 1.976,
+		"max_perf": 0.764,
+		"max_input_speed": 1872.0
+	},
+	"MM_W5700_2_369": {
+		"eff":0.96,
+		"R": 2.369,
+		"max_perf": 0.764,
+		"max_input_speed": 1872.0
+	},
+	"MM_W5700_2_712": {
+		"eff":0.96,
+		"R": 2.712,
+		"max_perf": 0.764,
+		"max_input_speed": 1872.0
+	},
+	"MM_W5700_3_132": {
+		"eff":0.96,
+		"R": 3.132,
+		"max_perf": 0.710,
+		"max_input_speed": 1872.0
+	},
+	"MM_W5700_3_574": {
+		"eff":0.96,
+		"R": 3.574,
+		"max_perf": 0.623,
+		"max_input_speed": 2130.0
+	},
+	"MM_W5700_4_082": {
+		"eff":0.96,
+		"R": 4.082,
+		"max_perf": 0.545,
+		"max_input_speed": 2400.0
+	},
+	"MM_W5700_4_668": {
+		"eff":0.96,
+		"R": 4.668,
+		"max_perf": 0.477,
+		"max_input_speed": 2400.0
+	},
+	"MM_W5700_5_354": {
+		"eff":0.96,
+		"R": 5.354,
+		"max_perf": 0.416,
+		"max_input_speed": 2400.0
+	},
+	"MM_W5700_6_170": {
+		"eff":0.96,
+		"R": 6.170,
+		"max_perf": 0.361,
+		"max_input_speed": 2400.0
+	},
+	"MM_W6000_4_477": {
+		"eff":0.96,
+		"R": 4.477,
+		"max_perf": 0.510,
+		"max_input_speed": 1800.0
+	},
+	"MM_W6000_5_103": {
+		"eff":0.96,
+		"R": 5.103,
+		"max_perf": 0.510,
+		"max_input_speed": 1800.0
+	},
+	"MM_W6000_5_765": {
+		"eff":0.96,
+		"R": 5.765,
+		"max_perf": 0.451,
+		"max_input_speed": 2000.0
+	},
+	"MM_W6000_6_508": {
+		"eff":0.96,
+		"R": 6.508,
+		"max_perf": 0.400,
+		"max_input_speed": 2300.0
+	},
+	"MM_W6000_7_061": {
+		"eff":0.96,
+		"R": 7.061,
+		"max_perf": 0.368,
+		"max_input_speed": 2600.0
+	},
+	"MM_W6000_7_674": {
+		"eff":0.96,
+		"R": 7.674,
+		"max_perf": 0.339,
+		"max_input_speed": 2800.0
+	},
+	"MM_W6000_8_704": {
+		"eff":0.96,
+		"R": 8.704,
+		"max_perf": 0.299,
+		"max_input_speed": 2800.0
+	},
+	"MM_W6000_9_919": {
+		"eff":0.96,
+		"R": 9.919,
+		"max_perf": 0.262,
+		"max_input_speed": 2800.0
+	},
+	"MM_W6400_6_170": {
+		"eff":0.96,
+		"R": 6.170,
+		"max_perf": 0.603,
+		"max_input_speed": 2100.0
+	},
+	"MM_W6400_6_461": {
+		"eff":0.96,
+		"R": 6.461,
+		"max_perf": 0.576,
+		"max_input_speed": 2100.0
+	},
+	"MM_W6400_7_099": {
+		"eff":0.96,
+		"R": 7.099,
+		"max_perf": 0.523,
+		"max_input_speed": 2100.0
+	},
+	"MM_W6400_7_446": {
+		"eff":0.96,
+		"R": 7.446,
+		"max_perf": 0.497,
+		"max_input_speed": 2100.0
+	},
+	"MM_W7200_3_296": {
+		"eff":0.96,
+		"R": 3.296,
+		"max_perf": 0.869,
+		"max_input_speed": 1850.0
+	},
+	"MM_W7200_3_780": {
+		"eff":0.96,
+		"R": 3.780,
+		"max_perf": 0.869,
+		"max_input_speed": 1850.0
+	},
+	"MM_W7200_3_949": {
+		"eff":0.96,
+		"R": 3.949,
+		"max_perf": 0.848,
+		"max_input_speed": 1950.0
+	},
+	"MM_W7200_4_127": {
+		"eff":0.96,
+		"R": 4.127,
+		"max_perf": 0.864,
+		"max_input_speed": 2000.0
+	},
+	"MM_W7200_4_313": {
+		"eff":0.96,
+		"R": 4.313,
+		"max_perf": 0.811,
+		"max_input_speed": 2100.0
+	},
+	"MM_W7200_4_506": {
+		"eff":0.96,
+		"R": 4.506,
+		"max_perf": 0.785,
+		"max_input_speed": 2100.0
+	},
+	"MM_W7200_4_926": {
+		"eff":0.96,
+		"R": 4.926,
+		"max_perf": 0.735,
+		"max_input_speed": 2100.0
+	},
+	"MM_W7200_5_282": {
+		"eff":0.96,
+		"R": 5.282,
+		"max_perf": 0.700,
+		"max_input_speed": 2100.0
+	},
+	"MM_W7200_5_633": {
+		"eff":0.96,
+		"R": 5.633,
+		"max_perf": 0.654,
+		"max_input_speed": 2100.0
+	},
+	"MM_W7400_4_608": {
+		"eff":0.96,
+		"R": 4.608,
+		"max_perf": 0.869,
+		"max_input_speed": 1850.0
+	},
+	"MM_W7400_4_815": {
+		"eff":0.96,
+		"R": 4.815,
+		"max_perf": 0.848,
+		"max_input_speed": 1950.0
+	},
+	"MM_W7400_5_031": {
+		"eff":0.96,
+		"R": 5.031,
+		"max_perf": 0.864,
+		"max_input_speed": 2000.0
+	},
+	"MM_W7400_5_258": {
+		"eff":0.96,
+		"R": 5.258,
+		"max_perf": 0.811,
+		"max_input_speed": 2100.0
+	},
+	"MM_W7400_5_494": {
+		"eff":0.96,
+		"R": 5.494,
+		"max_perf": 0.785,
+		"max_input_speed": 2100.0
+	},
+	"MM_W7400_6_006": {
+		"eff":0.96,
+		"R": 6.006,
+		"max_perf": 0.732,
+		"max_input_speed": 2100.0
+	},
+	"MM_W7400_6_439": {
+		"eff":0.96,
+		"R": 6.439,
+		"max_perf": 0.696,
+		"max_input_speed": 2100.0
+	},
+	"MM_W7400_6_868": {
+		"eff":0.96,
+		"R": 6.868,
+		"max_perf": 0.654,
+		"max_input_speed": 2100.0
+	},
+	"MM_W7400_7_522": {
+		"eff":0.96,
+		"R": 7.522,
+		"max_perf": 0.603,
+		"max_input_speed": 2100.0
+	},
+	"MM_W7400_7_877": {
+		"eff":0.96,
+		"R": 7.877,
+		"max_perf": 0.576,
+		"max_input_speed": 2100.0
+	},
+	"MM_W7400_8_655": {
+		"eff":0.96,
+		"R": 8.655,
+		"max_perf": 0.523,
+		"max_input_speed": 2100.0
+	},
+	"MM_W7400_9_078": {
+		"eff":0.96,
+		"R": 9.078,
+		"max_perf": 0.497,
+		"max_input_speed": 2100.0
+	}
+}

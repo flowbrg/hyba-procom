@@ -1,0 +1,67 @@
+{
+  "nav_3_knots_8_pc_sea_4": {
+    "driver_u0": 0,
+    "driver_duration": 1440,
+    "driver_dt": 1,
+    "emc_dP": 0,
+	"emc_dSOC":50,
+    "speed_pilot_du": 1.54,
+	"transm_Py": 0,
+	"transm_Pe": 5000,
+	"sea_state":4,
+	"bat_SOC_init":50,
+    "gear_active": 0
+  },
+  "nav_10_knots_35_pc_sea_4": {
+    "driver_u0": 0,
+    "driver_duration": 6300,
+    "driver_dt": 1,
+    "emc_dP": 0,
+	"emc_dSOC":50,
+    "speed_pilot_du": 5.14,
+	"transm_Py": 0,
+	"transm_Pe": 5000,
+	"sea_state":4,
+	"bat_SOC_init":50,
+    "gear_active": 0
+  },
+  "fishing_3.2_knots_57_pc_sea_4": {
+    "driver_u0": 0,
+    "driver_duration": 10260,
+    "driver_dt": 1,
+    "emc_dP": 0,
+	"emc_dSOC":50,
+    "speed_pilot_du": 1.64,
+	"transm_Py": 0,
+	"transm_Pe": 5000,
+	"sea_state":4,
+	"bat_SOC_init":50,
+    "gear_active": 1
+  },
+  "filage": {
+    "driver_u0": 180,
+    "driver_duration": 60,
+    "driver_dt": 1,
+    "emc_dP": 0,
+	"emc_dSOC":50,
+    "speed_pilot_du": 0,
+	"transm_Py": 60000,
+	"transm_Pe": 5000,
+	"sea_state":0,
+	"bat_SOC_init":50,
+    "gear_active": 0
+  },
+  "virage": {
+    "driver_u0": 180,
+    "driver_duration": 60,
+    "driver_dt": 1,
+    "emc_dP": 0,
+	"emc_dSOC":50,
+    "speed_pilot_du": 0,
+	"transm_Py": 180000,
+	"transm_Pe": 5000,
+	"sea_state":0,
+	"bat_SOC_init":50,
+    "gear_active": 0
+  }
+}
