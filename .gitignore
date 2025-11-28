@@ -1,4 +1,5 @@
 slprj/
+tests/
 *.slxc
 *.asv
 src/moteur/README.md
