@@ -1,15 +1,15 @@
 INIT_json2matlab
 
-% Variables modèle coque 
-m = 250000; % Masse navire
+%% ----- Coque ----- 
+m = 250000; % Masse du navire
 ma = 123434; % Masse ajoutée
 
 
-% Variables modèle hélice
+%% ----- Hélice -----
 rho = 1025; % Masse volumique de l'eau
 
-prop = PROP.Ka3_65_19A_D_2_07;
-hull = HULL.Naoned_hull;
+prop = PROP.Ka3_65_19A_D_2_07;  % Initialisation du modèle d'hélice
+hull = HULL.Naoned_hull;        % Inialisation de la géométrie de la coque
 
 x = prop.x;
 y = prop.y;
@@ -20,43 +20,50 @@ th = hull.th;
 D = prop.D;
 
 
+%% ----- Moteur thermique (Tm = 4s) -----
 
-% Modèle moteur thermique avec temps de réponse désiré de 4s
-nmt_nom = 750; % Vitesse rotation nominale du moteur
+% Actionneur
+tau_f = 0.2;    % temps caractéristique de l'actionneur (s), temps de
+                % variation entre la commande et l'action du couple
 
-R = 1/2.953; % Rapport de réduction du moteur diesel seul
+% Réducteur
+Rm = 1/2.9; % Rapport de réduction du moteur thermique
 
-tau_mt = 0.4;
+% Inertie
+eta_m = 0.4; % Rendement maximal moteur thermique
+Jm = 2.22; % Inertie du moteur thermique (kg.m2)
+Jprop = Jm/Rm^2; % Inertie du moteur après réduction
+B = 1/eta_m;    % frottement visqueux Qf = Bw, On fait l'hypothèse que les
+                % dissipations sont à l'origine du rendement de 0.4
+
+% Coefficients du régulateur du moteur, choisis tels que le temps de
+% variation du moteur diesel soit d'environ 4s.
+Kpm = 17.7; % Coefficient proportionnel du régulateur du moteur thermique
+Kim = 23.2; % Coefficient intégral du régulateur du moteur thermique
 
 %Rt = 1.8; % Résistance moteur thermique %pas utilisé avec nouveau modèle
-Jmt = 2.22; % Résistance moteur thermique (kg.m2)
 
-% Modèle moteur thermique avec temps de réponse désiré de 0.4s
-% Re = 1.5; % Résistance moteur électrique %pas utilisé avec nouveau modèle
-% Je = 0.6; % Résistance moteur electrique %pas utilisé dans la v1
-
+%% ----- Moteur électrique (Te = 0.4s) -----
+% Re = 1.5; % Résistance moteur électrique
+% Je = 0.6; % Résistance moteur electrique
 
 
-% Modele Transmission
+
+%% ----- Powertrain -----
 Rmt = 4.6680;
 Rme = 6.6080;
-eta_mt = 0.4; % Rendement maximal moteur thermique
 
-Jprop = Jmt/R^2;
-
-Pe = 5; %Puissance alternateurs
-Py = 60; % valeur en filage car ligne droite
-eta_p = 0.5;
+Pe = 5; % Puissance des alternateurs
+Py = 60; % Puissance hydraulique des pompes de filage
+eta_p = 0.5; 
 eta_r = 0.96;
 
+%% ----- Speed Pilot -----
+kp = 3500;  % Coefficient proportionnel
+ki = 700;   % Coefficient intégral
 
-%Coefficients PID du speed pilot 
-kp = 3500;
-ki = 700;
-
-
-%Modèle chalut
-Tc = 5.8e3; % poussée du chalut
+%% ----- Chalut -----
+Tc = 5.8e3; % Coefficient de thrust
 
 
 %Servent à quelque chose ?
