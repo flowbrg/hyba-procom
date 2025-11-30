@@ -1,3 +1,5 @@
+clc; clear;
+
 INIT_json2matlab
 
 %% ----- Coque ----- 
@@ -38,8 +40,8 @@ B = 1/eta_m;    % frottement visqueux Qf = Bw, On fait l'hypothèse que les
 
 % Coefficients du régulateur du moteur, choisis tels que le temps de
 % variation du moteur diesel soit d'environ 4s.
-Kpm = 17.7; % Coefficient proportionnel du régulateur du moteur thermique
-Kim = 23.2; % Coefficient intégral du régulateur du moteur thermique
+Kpm = 8.7; % Coefficient proportionnel du régulateur du moteur thermique
+Kim = 4.4; % Coefficient intégral du régulateur du moteur thermique
 
 %Rt = 1.8; % Résistance moteur thermique %pas utilisé avec nouveau modèle
 
@@ -63,9 +65,8 @@ kp = 3500;  % Coefficient proportionnel
 ki = 700;   % Coefficient intégral
 
 %% ----- Chalut -----
-Tc = 5.8e3; % Coefficient de thrust
+Tc = 5.8e3; % Coefficient de traction
 
-
-%Servent à quelque chose ?
+%% Servent à quelque chose ?
 
 eta_b = 1;
