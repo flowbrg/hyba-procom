@@ -1,5 +1,6 @@
 slprj/
 *.slxc
 *.asv
+*.slx.autosave
 src/moteur/README.md
 test_helice.m
