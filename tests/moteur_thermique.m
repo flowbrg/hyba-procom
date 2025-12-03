@@ -6,9 +6,9 @@ eta_r = 0.96; % Rendement de la chaine de transmission
 
 Jm = 2.2; % Inertie du moteur thermique (kg.m2)
 Jprop = Jm/Rm^2; % Inertie du moteur après réduction
-B = 1/eta_m; % frottement visqueux Qf = Bw
+B = 0; % frottement visqueux Qf = Bw
 
 tau_f = 0.2; % temps caractéristique de l'actionneur (s)
 
-Kpm = 8.7; % Coefficient proportionnel du régulateur du moteur thermique
-Kim = 4.4; % Coefficient intégral du régulateur du moteur thermique
+Kpm = 20; % Coefficient proportionnel du régulateur du moteur thermique
+Kim = 4; % Coefficient intégral du régulateur du moteur thermique

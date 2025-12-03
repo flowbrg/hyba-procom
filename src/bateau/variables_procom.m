@@ -1,6 +1,6 @@
 clc; clear;
 
-INIT_json2matlab
+INIT_json2matlab;
 
 %% ----- Coque ----- 
 m = 250000; % Masse du navire
@@ -10,7 +10,7 @@ ma = 123434; % Masse ajoutée
 %% ----- Hélice -----
 rho = 1025; % Masse volumique de l'eau
 
-prop = PROP.Ka3_65_19A_D_2_07;  % Initialisation du modèle d'hélice
+prop = PROP.Ka4_55_19A_D_2_07;  % Initialisation du modèle d'hélice
 hull = HULL.Naoned_hull;        % Inialisation de la géométrie de la coque
 
 x = prop.x;
@@ -21,8 +21,7 @@ wh = hull.wh;
 th = hull.th;
 D = prop.D;
 
-
-%% ----- Moteur thermique (Tm = 4s) -----
+%% ----- Moteur thermique -----
 
 % Actionneur
 tau_f = 0.2;    % temps caractéristique de l'actionneur (s), temps de
@@ -35,13 +34,13 @@ Rm = 1/2.9; % Rapport de réduction du moteur thermique
 eta_m = 0.4; % Rendement maximal moteur thermique
 Jm = 2.22; % Inertie du moteur thermique (kg.m2)
 Jprop = Jm/Rm^2; % Inertie du moteur après réduction
-B = 1/eta_m;    % frottement visqueux Qf = Bw, On fait l'hypothèse que les
-                % dissipations sont à l'origine du rendement de 0.4
+B = 0;  % frottement visqueux Qf = Bw, On fait l'hypothèse que les
+        % dissipations sont à l'origine du rendement de 0.4
 
 % Coefficients du régulateur du moteur, choisis tels que le temps de
 % variation du moteur diesel soit d'environ 4s.
-Kpm = 8.7; % Coefficient proportionnel du régulateur du moteur thermique
-Kim = 4.4; % Coefficient intégral du régulateur du moteur thermique
+Kpm = 20; % Coefficient proportionnel du régulateur du moteur thermique
+Kim = 4; % Coefficient intégral du régulateur du moteur thermique
 
 %Rt = 1.8; % Résistance moteur thermique %pas utilisé avec nouveau modèle
 
@@ -61,11 +60,12 @@ eta_p = 0.5;
 eta_r = 0.96;
 
 %% ----- Speed Pilot -----
-kp = 3500;  % Coefficient proportionnel
-ki = 700;   % Coefficient intégral
+kp = 5; % 3500;  % Coefficient proportionnel
+ki = 0.002; % 700;   % Coefficient intégral
 
 %% ----- Chalut -----
-Tc = 5.8e3; % Coefficient de traction
+Tc = 0; % 5.8e4; % Coefficient de traction
+% polynome dans GEAR.Pelagic_hake.p
 
 %% Servent à quelque chose ?
 
