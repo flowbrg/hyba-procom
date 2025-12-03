@@ -39,8 +39,8 @@ B = 0;  % frottement visqueux Qf = Bw, On fait l'hypothèse que les
 
 % Coefficients du régulateur du moteur, choisis tels que le temps de
 % variation du moteur diesel soit d'environ 4s.
-Kpm = 20; % Coefficient proportionnel du régulateur du moteur thermique
-Kim = 4; % Coefficient intégral du régulateur du moteur thermique
+Kpm = 0; % Coefficient proportionnel du régulateur du moteur thermique
+Kim = 60; % Coefficient intégral du régulateur du moteur thermique
 
 %Rt = 1.8; % Résistance moteur thermique %pas utilisé avec nouveau modèle
 
@@ -60,13 +60,30 @@ eta_p = 0.5;
 eta_r = 0.96;
 
 %% ----- Speed Pilot -----
-kp = 5; % 3500;  % Coefficient proportionnel
-ki = 0.002; % 700;   % Coefficient intégral
+Kp = 3; % 3500;  % Coefficient proportionnel
+Ki = 0.1; % 700;   % Coefficient intégral
 
 %% ----- Chalut -----
-Tc = 0; % 5.8e4; % Coefficient de traction
+Tc = 5.8e4; % Coefficient de traction
 % polynome dans GEAR.Pelagic_hake.p
 
-%% Servent à quelque chose ?
+%% ----- Houle -----
 
-eta_b = 1;
+rho = 1025; g = 9.81;
+
+% Spectre de houle
+w = linspace(0.1, 10, 500);  % vecteur de fréquences (rad/s)
+Hs = 2;                      % hauteur significative (m)
+w0 = 1.4;                    % pulsation dominante (rad/s)
+T0 = 2*pi/w0;                % période de pic (s)
+
+S = waveSpectrum(3, [Hs, T0], w, 1);  % spectre MPM (type=3)
+
+lambda = 0.26;                       % amortissement spectral recommandé
+sigma = sqrt(max(S));                % intensité spectrale
+Kw = 2*lambda*w0*sigma;              % gain du filtre (cf. eq. 8.116)
+
+% RAO
+Krao = 1e2;      % gain du RAO
+wR   = 0.8;      % pulsation de résonance (rad/s)
+zeta = 0.25;     % amortissement du RAO
